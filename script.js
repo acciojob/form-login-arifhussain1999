@@ -1,6 +1,6 @@
-function getFormvalue(event) {
+function getFormvalue() {
     //Write your code here
-	event.preventDefault();
+	
 	var firstName=document.getElementsByName("fname")[0].value;
 	var lastName=document.getElementsByName("lname")[0].value;
 
